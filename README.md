@@ -18,7 +18,7 @@ Branch names and their use:
 
 ## Concept image
 
-![Concept Image](/documentation/concept.png?raw=true "Concept Image")
+![Concept Image](/documentation/concept-image.png?raw=true "Concept Image")
 ## License
 
 [GLPv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
