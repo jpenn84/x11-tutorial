@@ -14,7 +14,6 @@ int main() {
     Display *display;
     Window window;
     XEvent event;
-    GC gc;
 
     char *msg1 = "XDrawString Hello, World!";       // Message to be displayed in XDrawString
     char *msg2 = "XDrawImageString Hello, World!";  // Message to be displayed in XDrawImageString
@@ -38,9 +37,6 @@ int main() {
 
     // Set window title
     XStoreName(display, window, "Hello World");
-
-    // Get the default graphics context
-    gc = XCreateGC(display, window, 0, NULL); // FIXME: gc is not used
 
     // Map (show) the window
     XMapWindow(display, window);
