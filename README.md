@@ -19,10 +19,10 @@ Branch names and their use:
 ## Concept image
 
 ![Concept Image](/documentation/concept-image.png?raw=true "Concept Image")
+
 ## License
 
 [GLPv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
 
 ## Run Locally
 
@@ -49,4 +49,7 @@ Branch names and their use:
   git clone git@github.com:jpenn84/x11-tutorial.git
 ```
 
-3. Follow the tutorial (WIP, coming soon)
+3. Run `make clean` and then `make` from the project directory
+
+4. Run `out/color-picker` from the project directory
+
